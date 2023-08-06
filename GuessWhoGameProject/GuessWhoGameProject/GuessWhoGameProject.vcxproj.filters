@@ -21,12 +21,21 @@
     <ClCompile Include="BaseWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PlayMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppStart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BaseWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

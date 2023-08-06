@@ -135,10 +135,13 @@
   <ItemGroup>
     <ClCompile Include="AppStart.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
+    <ClCompile Include="PlayMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppStart.h" />
     <ClInclude Include="BaseWindow.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="PlayMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
