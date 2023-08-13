@@ -135,11 +135,13 @@
   <ItemGroup>
     <ClCompile Include="AppStart.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="PlayMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppStart.h" />
     <ClInclude Include="BaseWindow.h" />
+    <ClInclude Include="GameMenu.h" />
     <ClInclude Include="Macros.h" />
     <ClInclude Include="PlayMenu.h" />
   </ItemGroup>
