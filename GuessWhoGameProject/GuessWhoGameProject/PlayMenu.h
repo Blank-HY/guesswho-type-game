@@ -13,10 +13,11 @@ public:
 
 
 	wxStaticText* m_txt1 = nullptr;
-	wxButton* m_btn1 = nullptr;
-	wxButton* m_btn2 = nullptr;
+	wxButton* m_btn1_create = nullptr;
+	wxButton* m_btn2_join = nullptr;
 
-	void OnButtonPress(wxCommandEvent& evt);
 
+	void OnButtonPress_Create(wxCommandEvent& evt);
+	void OnButtonPress_Join(wxCommandEvent& evt);
 };
 
