@@ -135,13 +135,21 @@
   <ItemGroup>
     <ClCompile Include="AppStart.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="HomeScreen.cpp" />
+=======
+    <ClCompile Include="GameMenu.cpp" />
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
     <ClCompile Include="PlayMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppStart.h" />
     <ClInclude Include="BaseWindow.h" />
+<<<<<<< HEAD
     <ClInclude Include="HomeScreen.h" />
+=======
+    <ClInclude Include="GameMenu.h" />
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
     <ClInclude Include="Macros.h" />
     <ClInclude Include="PlayMenu.h" />
   </ItemGroup>

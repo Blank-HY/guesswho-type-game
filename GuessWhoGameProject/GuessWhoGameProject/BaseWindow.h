@@ -2,6 +2,7 @@
 #include <wx/wxprec.h>
 #include "Macros.h"
 #include "PlayMenu.h"
+#include "GameMenu.h"
 
 #ifndef WX_PRECOMP
 #include <wx/wx.h>
@@ -20,6 +21,7 @@ public:
 	wxListBox* m_list1 = nullptr;
 
 	wxPanel* m_panel1 = nullptr;
+	wxPanel* m_panel2 = nullptr;
 
 	void OnButtonPress(wxCommandEvent& evt);
 

@@ -24,7 +24,11 @@
     <ClCompile Include="PlayMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="HomeScreen.cpp">
+=======
+    <ClCompile Include="GameMenu.cpp">
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,7 +45,11 @@
     <ClInclude Include="PlayMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="HomeScreen.h">
+=======
+    <ClInclude Include="GameMenu.h">
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
