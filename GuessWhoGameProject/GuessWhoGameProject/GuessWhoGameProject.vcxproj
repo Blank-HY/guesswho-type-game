@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WXUSINGDLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\wxWidgets-3.2.2.1\lib\vc_x64_dll\mswud;C:\wxWidgets-3.2.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Programming Projects\wxWidgets-3.2.2.1\lib\vc_x64_dll\mswud;C:\wxWidgets-3.2.2.1\lib\vc_x64_dll\mswud;C:\wxWidgets-3.2.2.1\include;%(AdditionalIncludeDirectories);D:\Programming Projects\wxWidgets-3.2.2.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\wxWidgets-3.2.2.1\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Programming Projects\wxWidgets-3.2.2.1\lib\vc_x64_dll;C:\wxWidgets-3.2.2.1\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>wxbase32ud.lib;wxmsw32ud_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -121,27 +121,35 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WXUSINGDLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\wxWidgets-3.2.2.1\lib\vc_x64_dll\mswu;C:\wxWidgets-3.2.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\wxWidgets-3.2.2.1\lib\vc_x64_dll\mswu;C:\wxWidgets-3.2.2.1\include;%(AdditionalIncludeDirectories);D:\Programming Projects\wxWidgets-3.2.2.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\wxWidgets-3.2.2.1\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Programming Projects\wxWidgets-3.2.2.1\lib\vc_x64_dll;C:\wxWidgets-3.2.2.1\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>wxbase32u.lib;wxmsw32u_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AppStart.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="HomeScreen.cpp" />
+=======
     <ClCompile Include="GameMenu.cpp" />
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
     <ClCompile Include="PlayMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppStart.h" />
     <ClInclude Include="BaseWindow.h" />
+<<<<<<< HEAD
+    <ClInclude Include="HomeScreen.h" />
+=======
     <ClInclude Include="GameMenu.h" />
+>>>>>>> 1a329146fd33fbbe4d9c7693aecfeee0590c44aa
     <ClInclude Include="Macros.h" />
     <ClInclude Include="PlayMenu.h" />
   </ItemGroup>
