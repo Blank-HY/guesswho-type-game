@@ -20,4 +20,3 @@ public:
 	void OnButtonPress_Create(wxCommandEvent& evt);
 	void OnButtonPress_Join(wxCommandEvent& evt);
 };
-
