@@ -14,7 +14,7 @@ public:
 	int boxWidth = 6;
 	int boxHeight = 5;
 
-	int *box = nullptr;
+	int* box = nullptr;
 
 	wxStaticBitmap** image;
 
@@ -23,4 +23,3 @@ public:
 	//wxImagePanel
 
 };
-

@@ -2,9 +2,9 @@
 #include "Macros.h"
 
 PlayMenu::PlayMenu(wxWindow* Parent) : wxPanel(Parent, WINDOW_ID, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL) {
-	
+
 	wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
-	
+
 	wxFont font(24, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD, false);
 
 	int minButtonSize = 150;
@@ -18,7 +18,7 @@ PlayMenu::PlayMenu(wxWindow* Parent) : wxPanel(Parent, WINDOW_ID, wxDefaultPosit
 	m_btn1_create->SetFont(font);
 	m_btn2_join->SetFont(font);
 	m_txt1->SetFont(font);
-	
+
 	m_btn1_create->SetMinSize(wxSize(minButtonSize, -1));
 	m_btn2_join->SetMinSize(wxSize(minButtonSize, -1));
 

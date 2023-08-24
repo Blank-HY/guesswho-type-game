@@ -1,6 +1,5 @@
 #include "GameMenu.h"
 #include "Macros.h"
-#include <string>
 
 GameMenu::GameMenu(wxWindow* Parent) : wxPanel(Parent, WINDOW_ID, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL) {
 
@@ -12,27 +11,21 @@ GameMenu::GameMenu(wxWindow* Parent) : wxPanel(Parent, WINDOW_ID, wxDefaultPosit
 
 	box = new int[boxWidth * boxHeight];
 
-	int counter = 1;
-	std::string img_name;
-
 	for (int x = 0; x < boxWidth; x++) {
-		/*counter = 0;*/
 		for (int y = 0; y < boxHeight; y++) {
-			img_name = "face pictures\\face-" + std::to_string(counter) + ".png";
-			image[y * boxWidth + x] = new wxStaticBitmap(this, wxID_ANY, wxBitmap(img_name, wxBITMAP_TYPE_PNG));
+			image[y * boxWidth + x] = new wxStaticBitmap(this, wxID_ANY, wxBitmap("img.png", wxBITMAP_TYPE_PNG));
 			grid->Add(image[y * boxWidth + x], 1, wxEXPAND | wxALL, 5);
 			box[y * boxWidth + x] = 0;
-			counter++;
 		}
 	}
 
-	wxStaticBitmap* heart1 = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
-	wxStaticBitmap* heart2 = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
-	wxStaticBitmap* heart3 = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
+	wxStaticBitmap* a = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
+	wxStaticBitmap* b = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
+	wxStaticBitmap* c = new wxStaticBitmap(this, wxID_ANY, wxBitmap("heart2.png", wxBITMAP_TYPE_PNG));
 
-	grid->Add(heart1, wxEXPAND | wxALL, 5);
-	grid->Add(heart2, wxEXPAND | wxALL, 5);
-	grid->Add(heart3, wxEXPAND | wxALL, 5);
+	grid->Add(a, wxEXPAND | wxALL, 5);
+	grid->Add(b, wxEXPAND | wxALL, 5);
+	grid->Add(c, wxEXPAND | wxALL, 5);
 
 	this->SetSizer(grid);
 	grid->Layout();
@@ -40,7 +33,7 @@ GameMenu::GameMenu(wxWindow* Parent) : wxPanel(Parent, WINDOW_ID, wxDefaultPosit
 }
 
 GameMenu::~GameMenu() {
-	delete []image;
+	delete[]image;
 }
 
 
